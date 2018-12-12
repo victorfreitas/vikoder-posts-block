@@ -1,0 +1,47 @@
+@import 'variables';
+@import 'posts';
+
+.#{$prefix}-filter {
+  align-items: center;
+  display: flex;
+  flex-flow: wrap;
+  max-width: 400px;
+  width: 100%;
+
+  .components-base-control {
+    flex-basis: 40%;
+    margin-left: 15px;
+  }
+}
+
+.#{$prefix}-placeholder
+.components-placeholder__instructions {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+.#{$prefix}-placeholder {
+  user-select: none;
+
+  &.loading {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  .components-notice {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .components-spinner {
+    top: 5px;
+  }
+
+  .components-placeholder__fieldset {
+    max-width: 100%;
+  }
+
+  .#{$prefix}-cart-item {
+    flex-basis: 10%;
+  }
+}

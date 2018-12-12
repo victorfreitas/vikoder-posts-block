@@ -1,0 +1,23 @@
+{
+  "name": "vikoder/posts-block",
+  "description": "Posts block for the new editor",
+  "license": "GPL",
+  "version": "1.0.0",
+  "type": "wordpress-plugin",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Viktor Freitas",
+      "email": "viktorfreitas@bk.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vikoder\\": "src/"
+    }
+  }
+}

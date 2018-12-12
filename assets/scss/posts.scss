@@ -1,0 +1,33 @@
+@import 'variables';
+
+.#{$prefix}-cards {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+
+  .#{$prefix}-cart-item {
+    box-sizing: border-box;
+    flex-basis: 20%;
+    margin: 10px;
+    text-align: center;
+
+    &:hover {
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .#{$prefix}-link {
+      color: #007cba;
+    }
+
+    @media (max-width: 769px) {
+      flex-basis: 30%;
+    }
+
+    @media (max-width: 520px) {
+      flex-basis: 50%;
+    }
+  }
+}
