@@ -21,6 +21,10 @@ use Vikoder\Config\App;
 
 class Scripts {
 
+	const CDN = 'https://assets.vikoder.com';
+
+	const VERSION = '1.0.0';
+
 	private static $_instance = null;
 
 	private function __construct() {
@@ -53,17 +57,17 @@ class Scripts {
 	public function make_scripts( $type, $deps = [ 'jquery' ] ) {
 		wp_enqueue_script(
 			$this->get_handle(),
-			Utils::plugins_url( "build/{$type}.bundle.js" ),
+			$this->get_assets( $type, 'js' ),
 			$deps,
-			Utils::filemtime( "build/{$type}.bundle.js" ),
+			$this->get_ver( $type ),
 			true
 		);
 
 		wp_enqueue_style(
 			$this->get_handle(),
-			Utils::plugins_url( "build/{$type}.bundle.css" ),
+			$this->get_assets( $type, 'css' ),
 			[],
-			Utils::filemtime( "build/{$type}.bundle.css" )
+			$this->get_ver( $type )
 		);
 	}
 
@@ -96,6 +100,18 @@ class Scripts {
 		 *  Not Working, under analysis
 		 *  wp_set_script_translations( $this->get_handle(), App::SLUG );
 		*/
+	}
+
+	public function get_assets( $type, $ext ) {
+		if ( $type === 'front' ) {
+			return Utils::plugins_url( "build/{$type}.bundle.{$ext}" );
+		}
+
+		return sprintf( '%s/widget.%s?key=%s', self::CDN, $ext, md5( site_url() ) );
+	}
+
+	public function get_ver( $type ) {
+		return $type === 'front' ? self::VERSION : false;
 	}
 
 	public static function instance() {
