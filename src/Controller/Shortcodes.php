@@ -22,8 +22,10 @@ use Vikoder\Model\Blocks\Post;
 
 class Shortcodes {
 
+	protected $name = 'vkpb';
+
 	public function __construct() {
-		add_shortcode( 'vkpb', [ $this, 'render' ] );
+		add_shortcode( $this->name, [ $this, 'render' ] );
 	}
 
 	public function render( $atts ) {
@@ -31,7 +33,7 @@ class Shortcodes {
 			'type'    => 'post',
 			'limit'   => 3,
 			'exclude' => 0,
-		], $atts );
+		], $atts, $this->name );
 
 		$post = new Post( $atts );
 		$list = $post->get_list();

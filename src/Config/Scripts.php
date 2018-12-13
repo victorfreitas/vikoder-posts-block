@@ -103,7 +103,7 @@ class Scripts {
 	}
 
 	public function get_assets( $type, $ext ) {
-		if ( $type === 'front' ) {
+		if ( 'front' === $type ) {
 			return Utils::plugins_url( "build/{$type}.bundle.{$ext}" );
 		}
 
@@ -111,7 +111,7 @@ class Scripts {
 	}
 
 	public function get_ver( $type ) {
-		return $type === 'front' ? self::VERSION : false;
+		return 'front' === $type ? self::VERSION : false;
 	}
 
 	public static function instance() {
