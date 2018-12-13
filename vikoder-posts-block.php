@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * Vikoder: Posts Block
+ * Posts Block by Vikoder
  *
  * @package vikoder-posts-block
  * @author  Viktor Freitas
@@ -10,7 +10,7 @@
  * @license GPL-3.0+
  *
  * @wordpress-plugin
- * Plugin Name: Vikoder: Posts Block
+ * Plugin Name: Posts Block by Vikoder
  * Description: Posts block for the new editor
  * Version:     1.0.0
  * Author:      Viktor Freitas
