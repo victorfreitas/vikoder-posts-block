@@ -103,11 +103,11 @@ class Scripts {
 	}
 
 	public function get_assets( $type, $ext ) {
-		if ( 'front' === $type ) {
-			return Utils::plugins_url( "build/{$type}.bundle.{$ext}" );
+		if ( defined( 'VIKODER_DEVELOPMENT' ) && VIKODER_DEVELOPMENT ) {
+			return Utils::plugins_url( "build/{$type}.widget.{$ext}" );
 		}
 
-		return sprintf( '%s/widget.%s?key=%s', self::CDN, $ext, md5( site_url() ) );
+		return sprintf( '%s/%s.widget.%s?key=%s', self::CDN, $type, $ext, md5( site_url() ) );
 	}
 
 	public function get_ver( $type ) {
