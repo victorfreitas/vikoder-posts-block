@@ -23,7 +23,7 @@ class Scripts {
 
 	const CDN = 'https://assets.vikoder.com';
 
-	const VERSION = '1.0.0';
+	const VERSION = '1.1.0';
 
 	private static $_instance = null;
 
