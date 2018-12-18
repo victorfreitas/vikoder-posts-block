@@ -1,7 +1,7 @@
-# Vikoder: Posts Block
+# Posts Block by Vikoder
 
 - Donate link: [Donate Now](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WCASYLUS394LY&source=url) a coffee
-- Plugin Name: Vikoder: Posts Block
+- Plugin Name: Posts Block by Vikoder
 - Description: Posts block for the new editor
 - Version:     1.1.0
 - Author:      Viktor Freitas
