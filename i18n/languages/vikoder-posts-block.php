@@ -6,7 +6,7 @@ $generated_i18n_strings = array(
 
 	// Reference: assets/js/admin/src/blocks/posts/Placeholder.jsx:11
 	// Reference: assets/js/admin/src/blocks/posts/index.jsx:9
-	__( 'Vikoder: Latest Posts', 'vikoder-posts-block' ),
+	__( 'Latest Posts by Vikoder', 'vikoder-posts-block' ),
 
 	// Reference: assets/js/admin/src/blocks/posts/Placeholder.jsx:13
 	// Reference: assets/js/admin/src/blocks/posts/index.jsx:13

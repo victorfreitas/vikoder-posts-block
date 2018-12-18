@@ -6,7 +6,7 @@ const { registerBlockType } = wp.blocks
 const { __ } = wp.i18n
 
 registerBlockType(blockName, {
-  title: __('Vikoder: Latest Posts', 'vikoder-posts-block'),
+  title: __('Latest Posts by Vikoder', 'vikoder-posts-block'),
   icon: 'grid-view',
   category: 'widgets',
   keywords: [__('Vikoder', 'vikoder-posts-block')],

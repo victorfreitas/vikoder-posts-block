@@ -8,7 +8,7 @@ const { __ } = wp.i18n
 const Placeholder = ({ children, isLoading }) => (
   <components.Placeholder
     icon="grid-view"
-    label={__('Vikoder: Latest Posts', 'vikoder-posts-block')}
+    label={__('Latest Posts by Vikoder', 'vikoder-posts-block')}
     className={`${prefix}-placeholder${isLoading ? ' loading' : ''}`}
     instructions={__('Display a grid of latest posts with featured image', 'vikoder-posts-block')}
   >
