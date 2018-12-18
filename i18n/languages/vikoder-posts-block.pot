@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-12-18T02:23:37-02:00\n"
-"PO-Revision-Date: 2018-12-18T02:23:37-02:00\n"
+"POT-Creation-Date: 2018-12-18T02:54:04-02:00\n"
+"PO-Revision-Date: 2018-12-18T02:54:04-02:00\n"
 "X-Generator: WP-CLI 2.0.1\n"
 "X-Domain: vikoder-posts-block\n"
 
@@ -61,7 +61,7 @@ msgid "Limit"
 msgstr ""
 
 #: i18n/languages/vikoder-posts-block.php:9
-msgid "Vikoder: Latest Posts"
+msgid "Latest Posts by Vikoder"
 msgstr ""
 
 #: i18n/languages/vikoder-posts-block.php:13
