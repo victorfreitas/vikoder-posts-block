@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'posts';
+@import "variables";
+@import "posts";
 
 .#{$prefix}-filter {
   align-items: center;
@@ -41,7 +41,7 @@
     max-width: 100%;
   }
 
-  .#{$prefix}-cart-item {
+  .#{$prefix}-card-item {
     flex-basis: 10%;
   }
 }

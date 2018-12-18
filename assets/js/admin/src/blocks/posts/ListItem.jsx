@@ -3,12 +3,14 @@ import PropTypes from 'prop-types'
 import prefix from '../../helpers/prefix'
 
 const ListItem = ({ post }) => (
-  <div className={`${prefix}-cart-item`} key={post.key}>
+  <div className={`${prefix}-card-item`}>
     <a href={post.link} title={post.title} className={`${prefix}-link`}>
-      <img src={post.thumb} alt={post.title} />
-      <span>
+      <div className={`${prefix}-card-thumb`}>
+        <img src={post.thumb} alt={post.title} />
+      </div>
+      <h4 className={`${prefix}-card-title`}>
         {post.title}
-      </span>
+      </h4>
     </a>
   </div>
 )
