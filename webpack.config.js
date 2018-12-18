@@ -25,7 +25,7 @@ module.exports = {
     front: jsIndex('front'),
   },
   output: {
-    filename: '[name].bundle.js',
+    filename: '[name].widget.js',
     path: path.resolve(__dirname, 'build'),
   },
   resolve: {
@@ -83,7 +83,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin('build', { verbose: true }),
     new MiniCssExtractPlugin({
-      filename: '[name].bundle.css',
+      filename: '[name].widget.css',
     }),
   ],
 }
