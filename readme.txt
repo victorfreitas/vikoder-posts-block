@@ -4,7 +4,7 @@ Contributors: victorfreitas
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WCASYLUS394LY&source=url
 Tags: posts, gutenberg, editor, grid posts, woocommerce, pages, custom posts
 Requires at least: 5.0
-Requires PHP: 5.4 or later
+Requires PHP: 5.4
 Tested up to: 5.0
 Stable tag: 1.1.0
 License: GPLv3+
