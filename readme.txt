@@ -18,7 +18,7 @@ Posts block for the new editor
 
 ### Video Preview ###
 
-[youtube https://www.youtube.com/watch?v=pwSJMymOb8w ]
+[youtube https://www.youtube.com/watch?v=MXajMivgMcQ ]
 
 == Changelog ==
 
