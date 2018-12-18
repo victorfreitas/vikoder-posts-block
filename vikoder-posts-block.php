@@ -12,7 +12,7 @@
  * @wordpress-plugin
  * Plugin Name: Posts Block by Vikoder
  * Description: Posts block for the new editor
- * Version:     1.0.0
+ * Version:     1.1.0
  * Author:      Viktor Freitas
  * Author URI:  https://github.com/victorfreitas
  * License:     GPL-3.0+

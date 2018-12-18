@@ -6,7 +6,7 @@ Tags: posts, gutenberg, editor, grid posts, woocommerce, pages, custom posts
 Requires at least: 5.0
 Requires PHP: 5.4 or later
 Tested up to: 5.0
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv3+
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -21,6 +21,10 @@ Posts block for the new editor
 [youtube https://www.youtube.com/watch?v=pwSJMymOb8w ]
 
 == Changelog ==
+
+= 1.1.0 2018-12-18 =
+
+* New cards style
 
 = 1.0.0 2018-12-11 =
 

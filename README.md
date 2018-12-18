@@ -3,7 +3,7 @@
 - Donate link: [Donate Now](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WCASYLUS394LY&source=url) a coffee
 - Plugin Name: Vikoder: Posts Block
 - Description: Posts block for the new editor
-- Version:     1.0.0
+- Version:     1.1.0
 - Author:      Viktor Freitas
 - Author URI:  https://github.com/victorfreitas
 - License:     GPL-3.0+

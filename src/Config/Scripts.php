@@ -5,7 +5,7 @@
  *
  * @package Vikoder\Config\Scripts
  * @author  Viktor Freitas
- * @since   1.0.0
+ * @since   1.1.0
  * @link    https://github.com/victorfreitas
  */
 
