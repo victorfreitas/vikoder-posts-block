@@ -107,7 +107,13 @@ class Scripts {
 			return Utils::plugins_url( "build/{$type}.widget.{$ext}" );
 		}
 
-		return sprintf( '%s/%s.widget.%s?key=%s', self::CDN, $type, $ext, md5( site_url() ) );
+		return sprintf(
+			'%s/%s.widget.%s%s',
+			self::CDN,
+			$type,
+			$ext,
+			'admin' === $type ? '?key=' . md5( site_url() ) : ''
+		);
 	}
 
 	public function get_ver( $type ) {
