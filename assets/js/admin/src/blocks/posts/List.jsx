@@ -5,7 +5,7 @@ import ListItem from './ListItem'
 
 const List = ({ posts }) => (
   <div className={`${prefix}-cards`}>
-    {posts.map(post => <ListItem post={post} />)}
+    {posts.map(post => <ListItem key={post.key} post={post} />)}
   </div>
 )
 

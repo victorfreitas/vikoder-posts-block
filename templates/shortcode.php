@@ -18,17 +18,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<?php foreach ( $list as $item ) : ?>
 
-	<div class="vkpb-cart-item">
+	<div class="vkpb-card-item">
 		<a
 			href="<?php echo esc_url( $item['link'] ); ?>"
 			title="<?php echo esc_attr( $item['title'] ); ?>"
 			class="vkpb-link"
 		>
-			<img
-				src="<?php echo esc_url( $item['thumb'] ); ?>"
-				alt="<?php echo esc_attr( $item['title'] ); ?>"
-			/>
-			<span><?php echo esc_html( $item['title'] ); ?></span>
+			<div class="vkpb-card-thumb">
+				<img
+					src="<?php echo esc_url( $item['thumb'] ); ?>"
+					alt="<?php echo esc_attr( $item['title'] ); ?>"
+				/>
+			</div>
+			<h4 class="vkpb-card-title">
+				<?php echo esc_html( $item['title'] ); ?>
+			</h4>
 		</a>
 	</div>
 
